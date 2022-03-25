@@ -7,7 +7,10 @@ def main():
         if(seguir=='s' or seguir=='S'):
             cual=str(input('Que ejercicio quieres ver (A,B,C)?:'))
             if(cual=='a' or cual=='A'):
-                print('Ejercicio A:\n')
+                print('Ejercicio A:\n\n')
+                
+                ny=NuevaYork()
+                del ny
                 
             elif(cual=='b' or cual=='B'):
                 print('Ejercicio B:\n')

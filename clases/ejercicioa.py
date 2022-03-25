@@ -23,7 +23,4 @@ class empleado:
         print("Destrucción {}".format(self.name)) 
  
     def __init__(self, name): 
-        self.name = name 
-
-ny = NuevaYork()
-del ny
+        self.name = name
