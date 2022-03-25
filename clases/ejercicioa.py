@@ -24,3 +24,6 @@ class empleado:
  
     def __init__(self, name): 
         self.name = name 
+
+ny = NuevaYork()
+del ny
