@@ -1,4 +1,5 @@
 from clases.ejercicioa import *
+from clases.ejerciciob import *
 
 def main():
     acabar=False
@@ -13,7 +14,15 @@ def main():
                 del ny
                 
             elif(cual=='b' or cual=='B'):
-                print('Ejercicio B:\n')
+                print('Ejercicio B:\n\n')
+               
+                yin = Yin() 
+                yang = Yang() 
+                yin.yang = yang 
+                print(yang)
+                print(yang is yin.yang) 
+                del (yang)
+                print("?")
                 
             elif(cual=='c' or cual=='C'):
                 print('Ejercicio C:\n')
