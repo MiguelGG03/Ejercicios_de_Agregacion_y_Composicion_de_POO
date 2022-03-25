@@ -6,3 +6,7 @@ class Yang:
 yin = Yin() 
 yang = Yang() 
 yin.yang = yang 
+print(yang)
+print(yang is yin.yang) 
+del (yang)
+print("?")
