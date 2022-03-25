@@ -3,7 +3,7 @@ def main():
     while(acabar==False):
         seguir=str(input('Quieres seguir viendo ejercicios(S/N)?:'))    
         if(seguir=='s' or seguir=='S'):
-            cual=str(input('Que ejercicio quieres ver (4,5,6)?:'))
+            cual=str(input('Que ejercicio quieres ver (A,B,C)?:'))
             if(cual=='a' or cual=='A'):
                 print('Ejercicio A:\n')
                 
@@ -19,5 +19,5 @@ def main():
         else:
             print('Eso no es una S o una N')
 
-if __name__=='__name__':
+if __name__ == '__main__':
     main()
