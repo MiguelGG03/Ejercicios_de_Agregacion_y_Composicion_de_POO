@@ -1,3 +1,5 @@
+from clases.ejercicioa import *
+
 def main():
     acabar=False
     while(acabar==False):
