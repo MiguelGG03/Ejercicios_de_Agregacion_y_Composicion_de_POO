@@ -21,7 +21,7 @@ def main():
                 yin.yang = yang 
                 print(yang)
                 print(yang is yin.yang) 
-                del (yang)
+                yang.__delete__()
                 print("?")
                 
             elif(cual=='c' or cual=='C'):
