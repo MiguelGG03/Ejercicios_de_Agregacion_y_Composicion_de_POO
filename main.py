@@ -25,7 +25,10 @@ def main():
                 print("?")
                 
             elif(cual=='c' or cual=='C'):
-                print('Ejercicio C:\n')
+                print('Ejercicio C:\n\n')
+                
+
+
             else:
                 print('Eso no es una A,B o C.')
         if(seguir=='n' or seguir=='N'):
