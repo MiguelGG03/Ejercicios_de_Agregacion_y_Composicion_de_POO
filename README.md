@@ -2,6 +2,9 @@
 
 ### Ejercicio a. El día siguiente
 
+    El UML de este ejercicio es el siguiente:
+
+    
 
 
 ### Ejercicio b. ¿Inmortal?
