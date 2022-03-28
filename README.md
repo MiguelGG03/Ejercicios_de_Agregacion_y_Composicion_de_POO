@@ -24,20 +24,21 @@ bloque). Para que esto no suceda bastaría con cambiar el método __del__ por el
      
 ´´´
 
-        class Yin: 
-            pass 
-        class Yang: 
-            def __delete__(self): 
-                print("Yang destruido") 
+    class Yin: 
+        pass 
+    class Yang: 
+        def __delete__(self): 
+            print("Yang destruido") 
 
 
-        yin = Yin() 
-        yang = Yang() 
-        yin.yang = yang 
-        print(yang)
-        print(yang is yin.yang) 
-        yang.__delete__()
-        print("?")
+    yin = Yin() 
+    yang = Yang() 
+    yin.yang = yang 
+    print(yang)
+    print(yang is yin.yang) 
+    yang.__delete__()
+    print("?")
+       
 ´´´
 
 
