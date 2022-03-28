@@ -1,8 +1,8 @@
-class pared: 
+class Pared: 
     def __init__(self, horientacion):
         self.horientacion=horientacion
 
-class ventana(pared): 
+class Ventana: 
     def __init__(self, horientacion, superficie):
         super().__init__(horientacion)
         self.superficie=superficie
