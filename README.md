@@ -5,7 +5,9 @@
 
     El UML de este ejercicio es el siguiente:
 
-    
+
+    ![EJERCICIO_A](https://user-images.githubusercontent.com/91721552/160427201-07086803-d3e8-44ad-881c-b65a3f916e94.png)
+
 
 
 ### Ejercicio b. ¿Inmortal?
