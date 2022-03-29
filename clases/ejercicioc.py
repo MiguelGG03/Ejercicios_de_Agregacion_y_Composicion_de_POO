@@ -8,7 +8,7 @@ class Ventana:
         self.superficie=superficie
         return self.superficie
 
-class casa(ventana):
+class Casa:
     def __init__(self, paredes, horientacion, superficie):
         self.paredes=paredes
     def superficieacristalada(self):
