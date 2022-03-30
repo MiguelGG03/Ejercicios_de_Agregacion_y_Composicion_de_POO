@@ -1,5 +1,6 @@
 from clases.ejercicioa import *
 from clases.ejerciciob import *
+from clases.ejercicioc import *
 
 def main():
     acabar=False
@@ -27,7 +28,20 @@ def main():
             elif(cual=='c' or cual=='C'):
                 print('Ejercicio C:\n\n')
                 
-
+                ventanas =[]
+                # Instanciación de las paredes 
+                pared_norte = Pared("NORTE") 
+                pared_oeste = Pared("OESTE") 
+                pared_sur = Pared("SUR") 
+                pared_este = Pared("ESTE") 
+                # Instanciación de las ventanas 
+                ventana_norte = Ventana(pared_norte, 0.5) 
+                ventana_oeste = Ventana(pared_oeste, 1) 
+                ventana_sur = Ventana(pared_sur, 2) 
+                ventana_este = Ventana(pared_este, 1) 
+                # Instanciación de la casa con las 4 paredes 
+                casa = Casa([ventana_norte, ventana_oeste, ventana_sur, ventana_este]) 
+                print(casa.superficie_acristalada()) 
 
             else:
                 print('Eso no es una A,B o C.')
