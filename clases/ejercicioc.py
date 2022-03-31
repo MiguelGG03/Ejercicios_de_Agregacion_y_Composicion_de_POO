@@ -17,3 +17,4 @@ class Casa:
     def superficie_acristalada(self):
         area=self.ventana0.superficie+self.ventana1.superficie+self.ventana2.superficie+self.ventana3.superficie
         return (area)
+        
